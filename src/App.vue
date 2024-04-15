@@ -8,6 +8,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <header>
     <div class="wrapper">
       <nav>
+
+        test for git
         <RouterLink to="/" exact>Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
