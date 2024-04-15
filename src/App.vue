@@ -38,7 +38,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <div class="wrapper">
       <ul>
-        <li class="col-3"><router-link to="/">HOME</router-link></li>
+        <li class="col-3"><router-link to="/">ABOUT ME</router-link></li>
         <li class="col-3"><RouterLink to="/projects">PROJECTS</RouterLink></li>
         <li class="col-3"><RouterLink to="/cv">CV</RouterLink></li>
         <li class="col-3"><RouterLink to="/contact">CONTACT</RouterLink></li>
@@ -78,14 +78,12 @@ a {
   font-size: 30px;
 }
 body {
-  width: auto;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: var(--secondary-white);
-  
 }
 header{
+  
+  width: auto;
+  height: 100%;
+  background-color: var(--secondary-white);
   display: flex;
   flex-direction: column;
   align-items: center;
