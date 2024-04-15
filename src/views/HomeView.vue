@@ -46,8 +46,6 @@
   max-height: 500px;
   width: auto;
 }
-.hero-image{
-}
 .text{
   padding: 200px 40px 40px 40px;
   

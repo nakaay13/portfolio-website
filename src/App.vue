@@ -77,8 +77,6 @@ a {
   font-family: 'Tinos', serif;
   font-size: 30px;
 }
-body {
-}
 header{
   
   width: auto;
