@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind:wght@300;400;500;600;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --secondary-grey: #707070;
+    --primary-white: #EBE9E6;
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #EBE9E6;
+    background-color: var(--primary-white);
 }
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
