@@ -3,7 +3,7 @@
   
     <div class="welcome">
       <div class="text">
-        <p class="hi">Hi, I'm Karolina</p>
+        <p class="hi" id="hi-text">Hi, I'm Karolina</p>
         <p class="description">
           Welcome to my portfolio website! I'm thrilled to have you here. Let me introduce myself: I've been captivated by the world of art from a young age. As I grew older, my passion for coding and crafting digital content blossomed, leading me to where I am today.
           <br>
@@ -20,6 +20,19 @@
         <p class="ticker-text">Explore my portfolio and dive into my projects! ┃ Contact me for your next design project! ┃ Read more about me below! ┃ Contact me if you have any questions! </p>
       </div>
     </div>
+    <div class="grey-part">
+      <p class="grey1">WEB DEVELOPER</p>
+      <p class="grey2">AND</p>
+      <p class="grey3">MULTIMEDIA DESIGNER</p>
+    </div>
+    <div class="last-part">
+      <div class="last-one col-4"></div>
+      <div class="last-two">
+        <img class="image2" src="/src/assets/img/me3.png" alt="">
+      </div>
+      <div class="last-three col-4"></div>
+
+    </div>
   </div>
 </template>
 
@@ -28,7 +41,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
   align-items: center;
 }
 .welcome{
@@ -65,7 +77,9 @@
   border: 3px solid var(--secondary-grey);
   border-top: 0px;
   width: 80%;
-  height: 50px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
 }
 
@@ -82,7 +96,6 @@
   font-size: 30px;
 }
 
-
 @keyframes ticker-scroll {
   0% {
     transform: translateX(100%);
@@ -91,4 +104,81 @@
     transform: translateX(-100%);
   }
 }
+
+.grey-part{
+  background-color: var(--secondary-grey);
+  color: var(--primary-white);
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+.grey1{
+  background-color: var(--secondary-grey);
+  color: var(--primary-white);
+  font-size: 80px;
+}
+.grey2{
+  background-color: var(--secondary-grey);
+  color: var(--primary-white);
+}
+.grey3{
+  background-color: var(--secondary-grey);
+  color: var(--primary-white);
+  font-size: 80px;
+}
+.last-part{
+  border: 3px solid var(--secondary-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+}
+.last-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-left: 3px solid var(--secondary-grey);
+  border-right: 3px solid var(--secondary-grey);
+}
+.image2{
+  max-height: 500px;
+  width: auto;
+  border: 3px solid var(--secondary-grey);
+}
+
 </style>
+
+<script>
+export default {
+  mounted() {
+    this.animateText();
+  },
+  methods: {
+    animateText() {
+      const text = "Hi, I'm Karolina";
+      const hiText = document.getElementById('hi-text');
+      hiText.innerHTML = ''; // Clear existing content before appending
+
+      let index = 0;
+
+      const intervalId = setInterval(() => {
+        hiText.innerHTML += text[index];
+        index++;
+        if (index === text.length) {
+          clearInterval(intervalId);
+        }
+      }, 100); // Adjust the speed of typing here (milliseconds)
+    }
+  }
+}
+</script>

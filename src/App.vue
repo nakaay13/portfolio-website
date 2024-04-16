@@ -47,7 +47,9 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
   </body>
   <RouterView />
-
+  <footer>
+    <p class="copywrights">© 2024 All Rights Reserved ┃ Created by Karolina Brzek</p>
+  </footer>
 </template>
 
 <style >
@@ -128,5 +130,27 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+footer{
+  width: auto;
+  height: 100%;
+  background-color: var(--secondary-white);
+  color: var(--secondary-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.copywrights{
+  width: 80%;
+  height: 70px;
+  border: 3px solid var(--secondary-grey);
+  border-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Tinos', serif;
+  font-size: 30px;
 }
 </style>
