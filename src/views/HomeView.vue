@@ -28,7 +28,7 @@
     <div class="last-part">
       <div class="last-one col-4"></div>
       <div class="last-two">
-        <img class="image2" src="/src/assets/img/me3.png" alt="">
+        <img class="image2" src="/src/assets/img/me2.png" alt="">
       </div>
       <div class="last-three col-4"></div>
 
@@ -60,7 +60,6 @@
 }
 .text{
   padding: 200px 40px 40px 40px;
-  
   border-right: 3px solid var(--secondary-grey);
 }
 .hi{
@@ -160,24 +159,35 @@
 
 <script>
 export default {
+  // Called when the component is mounted to the DOM
   mounted() {
+    // Calls the animateText method when the component is mounted
     this.animateText();
   },
   methods: {
+    // Method to animate the text
     animateText() {
+      // Text to be animated
       const text = "Hi, I'm Karolina";
+      // Get the element with the id 'hi-text'
       const hiText = document.getElementById('hi-text');
-      hiText.innerHTML = ''; // Clear existing content before appending
+      // Clear existing content before appending new content
+      hiText.innerHTML = '';
 
       let index = 0;
 
+      // Set interval to append each letter of the text
       const intervalId = setInterval(() => {
+        // Append the next letter of the text
         hiText.innerHTML += text[index];
+        // Move to the next letter
         index++;
+        // Check if animation is complete
         if (index === text.length) {
+          // Stop the interval when animation is complete
           clearInterval(intervalId);
         }
-      }, 100); // Adjust the speed of typing here (milliseconds)
+      }, 100); // is the speed of typing here (milliseconds)
     }
   }
 }
