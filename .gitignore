@@ -1,0 +1,5 @@
+# Ignore npm's cache directory
+.npm/
+
+# Ignore Node.js dependencies folder
+node_modules/
