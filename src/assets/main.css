@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind:wght@300;400;500;600;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root{
-    --secondary-grey: #707070;
+    --secondary-grey: hwb(0 44% 56%);
     --primary-white: #EBE9E6;
     --border-width: 3px;
     --border-small: 2px;
