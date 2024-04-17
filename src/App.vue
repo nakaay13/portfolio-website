@@ -247,6 +247,25 @@ footer{
   header{
     margin-top: 20px;
   }
+   li{
+    border-right: var(--border-small) solid var(--secondary-grey);
+  }
+  .logo{
+    border-right: var(--border-small) solid var(--secondary-grey);
+  }
+  .title{
+    border-right: var(--border-small) solid var(--secondary-grey);
+  }
+  .wrapper{
+    border: var(--border-small) solid var(--secondary-grey);
+    border-top: 0px;
+  }
+  .copywrights{
+    border: var(--border-small) solid var(--secondary-grey);
+  }
+  .top-part{
+    border: var(--border-small) solid var(--secondary-grey);
+  }
 }
 @media (max-width: 500px) {
   .top-part{
@@ -274,25 +293,7 @@ footer{
   header{
     margin-top: 10px;
   }
-  li{
-    border-right: var(--border-small) solid var(--secondary-grey);
-  }
-  .logo{
-    border-right: var(--border-small) solid var(--secondary-grey);
-  }
-  .title{
-    border-right: var(--border-small) solid var(--secondary-grey);
-  }
-  .wrapper{
-    border: var(--border-small) solid var(--secondary-grey);
-    border-top: 0px;
-  }
-  .copywrights{
-    border: var(--border-small) solid var(--secondary-grey);
-  }
-  .top-part{
-    border: var(--border-small) solid var(--secondary-grey);
-  }
+ 
 
   
 }

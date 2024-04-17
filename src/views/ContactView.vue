@@ -8,20 +8,21 @@
                 
                
             <div class="contact_text">
-                
-                Email adress: karolinabrzek01@gmail.com
+                <img class="phone" src="/src/assets/img/old-phone(2).png" alt="">
+                <p>
+                    
+                E-mail adress: karolinabrzek01@gmail.com
                 <br><br>
-                Phone number: +45 50 22 48 95
+                Phone number:  +45 50 22 48 95
                 <br><br>
-                Another phone number: +48 660 320 676
+                Another phone number:  +48 660 320 676
                 <br><br>
                 Link to my LinkedIn profile: <a href="www.linkedin.com/in/karolina-brzek-067b952b5">click here</a>
                 <br><br>
                 Link to my GitHub profile: <a href="https://github.com/nakaay13">click here</a>
+                </p>
+                
 
-            </div>
-            <div class="phone-part">
-                <img class="phone" src="/src/assets/img/old-phone.png" alt="">
             </div>
         </div>
     </div>
@@ -38,6 +39,15 @@
     align-items: center;
     justify-content: center;
 }
+.contact_text {
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+    color: var(--secondary-grey);
+    background-color: var(--primary-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .header {
     font-size: 80px;
     font-family: 'Abril Fatface';
@@ -50,8 +60,6 @@
     height: 150px;
 }
 .info {
-    font-family: 'Tinos', serif;
-    font-size: 30px;
     color: var(--secondary-grey);
     background-color: var(--primary-white);
     width: 80%;
@@ -62,16 +70,91 @@
     padding: 30px;
 }
 
-.phone-part {
-    display: inline-block;
-    width: fit-content; /* Set width to fit content */
-    height: fit-content; /* Set height to fit content */
-}
+
 
 .phone {
     width: 50%; /* Set the width of the image to 100% */
     height: auto;
+    float: left;
+    margin-right: 30px ;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-grey);
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+
 }
 
-
+@media screen and (max-width: 1200px) {
+    .header{
+    font-size: 70px;
+    height: 120px;
+    }
+    .info{
+        font-size: 25px;
+    }
+    .contact_text{
+        font-size: 25px;
+    }
+    a{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1000px){
+  .header {
+    font-size: 70px;
+    height: 120px;
+  }
+}
+@media (max-width: 800px){
+    .contact_text{
+        flex-direction: column;
+    }
+    .image{
+        float: none;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    .header {
+    font-size: 60px;
+    height: 100px;
+  }
+}
+@media (max-width: 620px) {
+    .header {
+    font-size: 40px;
+    height: 80px;
+  }
+  .info{
+    border: var(--border-small) solid var(--secondary-grey);
+    border-bottom: 0px;
+  }
+  .info{
+        font-size: 20px;
+    }
+    .contact_text{
+        font-size: 20px;
+    }
+    a{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px){
+    .header {
+    font-size: 30px;
+    height: 60px;
+  }
+  .info{
+        font-size: 15px;
+    }
+    .contact_text{
+        font-size: 15px;
+    }
+    a{
+        font-size: 15px;
+    }
+}
 </style>

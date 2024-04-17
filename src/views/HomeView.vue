@@ -47,10 +47,30 @@
       </div>
 
     </div>
+    <div class="last-part-media">
+      <div class="wrapper-media">
+        
+      <div class="last-one-media">
+        <p class="img-p-media"> <img class="image2-media" src="/src/assets/img/me2.png" alt="">
+          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With a strong command of GitHub, I ensure collaborative and efficient development workflows, facilitating seamless project management and version control.
+
+          
+        </p>
+      </div>
+
+      </div>
+      <div class="last-three-media ">
+        <p>
+          In addition to my coding skills, I excel in graphic design, adept at creating visually compelling content such as posters and promotional materials. Proficient in Adobe Creative Suite, including InDesign, Illustrator, and Photoshop, I bring concepts to life with precision and creativity. Furthermore, my expertise extends to video editing using Premiere Pro and After Effects, where I craft engaging visual narratives. Leveraging tools like Figma and Adobe XD, I streamline the design process, delivering polished prototypes and user interfaces. 
+        </p>
+      </div>
+
+    </div>
   </div>
 </template>
 
 <style scoped>
+
 .about-me { 
   display: flex;
   justify-content: center;
@@ -58,7 +78,7 @@
   align-items: center;
 }
 .welcome{
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
   border-top: 0px;
   display: flex;
   justify-content: center;
@@ -71,7 +91,7 @@
 .image {
   width: 100%;
   height: auto;
-  border: 3px solid var(--secondary-grey);  
+  border: var(--border-width) solid var(--secondary-grey);  
 }
 
 .text{
@@ -88,7 +108,7 @@
 .home-wrapper{
   display: flex;
   flex-direction: row;
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
   padding: 30px;
   
 }
@@ -96,9 +116,10 @@
   font-size: 20px;
   font-family: 'Hind';
   padding-left: 30px;
+  color: var(--secondary-grey);
 }
 .ticker-container{
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
   border-top: 0px;
   width: 80%;
   height: 70px;
@@ -164,7 +185,7 @@
 .image2{
   max-height: 500px;
   width: auto;
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
 }
 .last-part{
   border: 3px solid var(--secondary-grey);
@@ -189,6 +210,195 @@
   color: var(--secondary-grey);
   height: 100%;
   
+}
+.last-part-media{
+  display: none;
+}
+@media ( max-width: 1200px){
+  .last-part{
+    display: none;
+  }
+  .last-part-media{
+    display: flex;
+    border: var(--border-width) solid var(--secondary-grey);
+    border-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+  }
+  .wrapper-media{
+    display: flex;
+    flex-direction: row;
+  }
+  .img-p-media{
+    margin-left: 30px;
+  }
+
+.image2-media{
+  max-height: 500px;
+  width: auto;
+  border: var(--border-width) solid var(--secondary-grey);
+  float: left;
+  margin: 0 30px 0 0;
+}
+.last-part-media{
+  border: var(--border-width) solid var(--secondary-grey);
+  border-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+.last-one-media{
+  font-family: 'Hind';
+  font-size: 20px;
+  padding: 30px;
+  color: var(--secondary-grey);
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.last-three-media{
+  font-family: 'Hind';
+  font-size: 20px;
+  padding: 30px;
+  color: var(--secondary-grey);
+  height: 100%;
+  padding-top: 0px;
+}
+}
+@media (max-width: 1000px){
+  .hi{
+    font-size: 60px;
+  }
+  .description{
+    font-size: 20px;
+    padding: 0px;
+  }
+  .grey1{
+    font-size: 50px;
+  }
+  .grey3{
+    font-size: 50px;
+  }
+  .last-one{
+    font-size: 20px;
+  }
+  .last-three{
+    font-size: 20px;
+  }
+  .last-one-media{
+    font-size: 20px;
+  }
+  .last-three-media{
+    font-size: 20px;
+  }
+  .home-wrapper{
+    flex-direction: column;
+  }
+  .image{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .image2-media{
+    width: 35%;
+  
+  }
+
+}
+@media(max-width:800px){
+
+}
+@media(max-width:620px){
+    .hi{
+      font-size: 50px;
+    }
+    .image{
+      width: 100%;
+    }
+    .grey1{
+      font-size: 40px;
+    }
+    .grey2{
+      font-size: 30px;
+    }
+    .grey3{
+      font-size: 40px;
+    }
+    .image2-media{
+      width: 50%;
+    }
+    .welcome{
+      border: var(--border-small) solid var(--secondary-grey); 
+      border-top: 0px;
+    }
+    .image{
+      border:var(--border-small) solid var(--secondary-grey);
+    }
+    .home-wrapper{
+      border:var(--border-small) solid var(--secondary-grey);
+    }
+    .ticker-container{
+      border: var(--border-small) solid var(--secondary-grey);
+      border-top: 0px;
+    }
+    .grey-part{
+      border: var(--border-small) solid var(--secondary-grey);
+    }
+    .last-part-media{
+      border: var(--border-small) solid var(--secondary-grey);
+      border-bottom: 0px;
+    }
+    .image2-media{
+      border: var(--border-small) solid var(--secondary-grey);
+    }
+}
+@media(max-width:500px){
+    .hi{
+      font-size: 40px;
+    }
+    .text{
+      padding: 20px;
+    }
+    .home-wrapper{
+      padding: 20px;
+    }
+    .description{
+      font-size: 15px;
+    }
+    .ticker-text{
+      font-size: 20px;
+    }
+    .ticker-container{
+      height: 50px;
+    }
+    .grey1{
+      font-size: 30px;
+    }
+    .grey2{
+      font-size: 20px;
+    }
+    .grey3{
+      font-size: 30px;
+    }
+    .last-one-media{
+      font-size: 15px;
+    }
+    .last-three-media{
+      font-size: 15px;
+    }
+    .image{
+      width: 100%;
+    }
+    .image2-media{
+      width: 100%;
+    }
+    
 }
 </style>
 

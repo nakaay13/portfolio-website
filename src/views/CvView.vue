@@ -109,6 +109,13 @@ iframe {
     width: 100%;
   }
   
+  
+}
+@media (max-width: 1000px){
+  .header {
+    font-size: 70px;
+    height: 120px;
+  }
 }
 @media (max-width: 800px) {
   iframe {
@@ -159,6 +166,22 @@ iframe {
   .video p{
     margin-bottom: 10px;
   }
+  .video{
+    border: var(--border-small) solid var(--secondary-grey);
+    border-bottom: 0px;
+    border-top: 0px;
+  }
+  .download-part{
+    border: var(--border-small) solid var(--secondary-grey);
+  }
+  .resume{
+    border-right: 0px;
+    border-bottom: var(--border-small) solid var(--secondary-grey);
+  }
+  .business-card{
+    border-bottom: 0px;
+  }
+  
 }
 @media (max-width:500px) {
   iframe {
@@ -183,19 +206,6 @@ iframe {
   }
   .video p{
     margin-bottom: 5px;
-  }
-  .video{
-    border: var(--border-small) solid var(--secondary-grey);
-  }
-  .download-part{
-    border: var(--border-small) solid var(--secondary-grey);
-  }
-  .resume{
-    border-right: 0px;
-    border-bottom: var(--border-small) solid var(--secondary-grey);
-  }
-  .business-card{
-    border-bottom: var(--border-small) solid var(--secondary-grey);
   }
   
 }
