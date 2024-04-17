@@ -4,12 +4,10 @@
             CONTACT
         </div>
         <div class="info">
-            <div class="phone-part">
-                <img class="phone" src="/src/assets/img/old-phone.png" alt="">
-            </div>
+            
                 
                
-            <div class="cv_text">
+            <div class="contact_text">
                 
                 Email adress: karolinabrzek01@gmail.com
                 <br><br>
@@ -22,7 +20,9 @@
                 Link to my GitHub profile: <a href="https://github.com/nakaay13">click here</a>
 
             </div>
-            
+            <div class="phone-part">
+                <img class="phone" src="/src/assets/img/old-phone.png" alt="">
+            </div>
         </div>
     </div>
 </template>
@@ -31,7 +31,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .contact {
     display: flex;
     flex-direction: column;
@@ -61,12 +61,17 @@
     border: 3px solid var(--secondary-grey);
     padding: 30px;
 }
-.phone{
-    max-width: 25%;
+
+.phone-part {
+    display: inline-block;
+    width: fit-content; /* Set width to fit content */
+    height: fit-content; /* Set height to fit content */
+}
+
+.phone {
+    width: 50%; /* Set the width of the image to 100% */
     height: auto;
 }
-.phone-part{
-    height: auto;
-}
+
 
 </style>

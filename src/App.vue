@@ -54,6 +54,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style >
 
+
 ul {
   display: flex;
   justify-content: space-around;
@@ -63,7 +64,7 @@ ul {
   list-style-type: none;
 }
 li{
-  border-right: 3px solid var(--secondary-grey);
+  border-right: var(--border-width) solid var(--secondary-grey);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -92,7 +93,7 @@ header{
 .top-part {
   width: 80%;
   height: 150px;
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
   border-bottom: 0px;
   display: flex;
   justify-content: center;
@@ -100,12 +101,12 @@ header{
 .wrapper{
   width: 80%;
   height: 100px;
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
   display: flex;
   justify-content: center;
 }
 .logo{
-  border-right: 3px solid var(--secondary-grey);
+  border-right: var(--border-width) solid var(--secondary-grey);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,7 +116,7 @@ header{
   height: 90px;
 }
 .title{
-  border-right: 3px solid var(--secondary-grey);
+  border-right: var(--border-width) solid var(--secondary-grey);
   font-family: 'Abril Fatface';
   color: var(--secondary-grey);
   font-size: 80px;
@@ -145,12 +146,154 @@ footer{
 .copywrights{
   width: 80%;
   height: 70px;
-  border: 3px solid var(--secondary-grey);
+  border: var(--border-width) solid var(--secondary-grey);
   border-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Tinos', serif;
   font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  .name{
+    font-size: 30px;
+  }
+  .title{
+    font-size: 60px;
+  }
+  .logo-svg{
+    height: 70px;
+  }
+
+}
+@media (max-width: 1000px) {
+  .top-part{
+    height: 100px;
+  }
+  .wrapper{
+    height: 70px;
+  }
+  .logo-svg{
+    height: 60px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .name{
+    font-size: 25px;
+  }
+  .copywrights{
+    height: 50px;
+    font-size: 25px;
+  }
+  a {
+    font-size: 25px;
+  } 
+  header{
+    margin-top: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .top-part{
+    height: 70px;
+  }
+  .wrapper{
+    height: 50px;
+  }
+  .logo-svg{
+    height: 50px;
+  }
+  .title{
+    font-size: 40px;
+  }
+  .name{
+    font-size: 20px;
+  }
+  .copywrights{
+    height: 40px;
+    font-size: 20px;
+  }
+  a {
+    font-size: 20px;
+  } 
+  header{
+    margin-top: 30px;
+  }
+}
+@media (max-width: 620px) {
+  .top-part{
+    height: 50px;
+  }
+  .wrapper{
+    height: 40px;
+  }
+  .logo-svg{
+    height: 40px;
+  }
+  .title{
+    font-size: 30px;
+  }
+  .name{
+    font-size: 15px;
+  }
+  .copywrights{
+    height: 30px;
+    font-size: 15px;
+  }
+  a {
+    font-size: 15px;
+  } 
+  header{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .top-part{
+    height: 40px;
+  }
+  .wrapper{
+    height: 30px;
+  }
+  .logo-svg{
+    height: 30px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .name{
+    font-size: 10px;
+  }
+  .copywrights{
+    height: 20px;
+    font-size: 10px;
+  }
+  a {
+    font-size: 10px;
+  } 
+  header{
+    margin-top: 10px;
+  }
+  li{
+    border-right: var(--border-small) solid var(--secondary-grey);
+  }
+  .logo{
+    border-right: var(--border-small) solid var(--secondary-grey);
+  }
+  .title{
+    border-right: var(--border-small) solid var(--secondary-grey);
+  }
+  .wrapper{
+    border: var(--border-small) solid var(--secondary-grey);
+    border-top: 0px;
+  }
+  .copywrights{
+    border: var(--border-small) solid var(--secondary-grey);
+  }
+  .top-part{
+    border: var(--border-small) solid var(--secondary-grey);
+  }
+
+  
 }
 </style>

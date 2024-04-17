@@ -4,16 +4,20 @@
     <div class="welcome">
       <div class="text">
         <p class="hi" id="hi-text">Hi, I'm Karolina</p>
-        <p class="description">
-          Welcome to my portfolio website! I'm thrilled to have you here. Let me introduce myself: I've been captivated by the world of art from a young age. As I grew older, my passion for coding and crafting digital content blossomed, leading me to where I am today.
-          <br>
-         Currently, I'm immersed in my studies at EASV in Esbjerg, Denmark, where I'm pursuing a degree in Multimedia Design. It's here that I've discovered my knack for designing websites and exploring the realm of graphics, all while nurturing my creativity.
-          <br>
-          As you navigate through my portfolio, you'll get a glimpse into my journey and the projects that showcase my skills and passion. I'm excited for you to join me as I bring ideas to life through design and coding. Welcome aboard!</p>
+        <div class="home-wrapper">
+          <div class="hero-image">
+          <img class="image" src="/src/assets/img/me.png" alt="">
+         </div>
+          <p class="description">
+            Welcome to my portfolio website! I'm thrilled to have you here. Let me introduce myself: I've been captivated by the world of art from a young age. As I grew older, my passion for coding and crafting digital content blossomed, leading me to where I am today.
+            <br>
+          Currently, I'm immersed in my studies at EASV in Esbjerg, Denmark, where I'm pursuing a degree in Multimedia Design. It's here that I've discovered my knack for designing websites and exploring the realm of graphics, all while nurturing my creativity.
+            <br>
+            As you navigate through my portfolio, you'll get a glimpse into my journey and the projects that showcase my skills and passion. I'm excited for you to join me as I bring ideas to life through design and coding. Welcome aboard!</p>
+        </div>
       </div>
-      <div class="hero-image">
-        <img class="image" src="/src/assets/img/me.png" alt="">
-      </div>
+      
+      
     </div>
     <div class="ticker-container">
       <div class="ticker">
@@ -26,17 +30,27 @@
       <p class="grey3">MULTIMEDIA DESIGNER</p>
     </div>
     <div class="last-part">
-      <div class="last-one col-4"></div>
+      <div class="last-one col-4">
+        <p>
+          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With a strong command of GitHub, I ensure collaborative and efficient development workflows, facilitating seamless project management and version control.
+
+          
+        </p>
+      </div>
       <div class="last-two">
         <img class="image2" src="/src/assets/img/me2.png" alt="">
       </div>
-      <div class="last-three col-4"></div>
+      <div class="last-three col-4">
+        <p>
+          In addition to my coding skills, I excel in graphic design, adept at creating visually compelling content such as posters and promotional materials. Proficient in Adobe Creative Suite, including InDesign, Illustrator, and Photoshop, I bring concepts to life with precision and creativity. Furthermore, my expertise extends to video editing using Premiere Pro and After Effects, where I craft engaging visual narratives. Leveraging tools like Figma and Adobe XD, I streamline the design process, delivering polished prototypes and user interfaces. 
+        </p>
+      </div>
 
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
 .about-me { 
   display: flex;
   justify-content: center;
@@ -54,23 +68,34 @@
   height: auto;
   
 }
-.image{
-  max-height: 500px;
-  width: auto;
+.image {
+  width: 100%;
+  height: auto;
+  border: 3px solid var(--secondary-grey);  
 }
+
 .text{
-  padding: 200px 40px 40px 40px;
-  border-right: 3px solid var(--secondary-grey);
+  padding: 40px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
 }
 .hi{
   font-size: 80px;
   font-family: 'Abril Fatface';
   color: var(--secondary-grey);
+
+}
+.home-wrapper{
+  display: flex;
+  flex-direction: row;
+  border: 3px solid var(--secondary-grey);
+  padding: 30px;
+  
 }
 .description{
   font-size: 20px;
   font-family: 'Hind';
-  color: var(--secondary-grey);
+  padding-left: 30px;
 }
 .ticker-container{
   border: 3px solid var(--secondary-grey);
@@ -127,6 +152,20 @@
   color: var(--primary-white);
   font-size: 80px;
 }
+
+
+.last-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 100%;
+}
+.image2{
+  max-height: 500px;
+  width: auto;
+  border: 3px solid var(--secondary-grey);
+}
 .last-part{
   border: 3px solid var(--secondary-grey);
   display: flex;
@@ -134,27 +173,23 @@
   align-items: center;
   flex-direction: row;
   width: 80%;
-  height: auto;
+  height: 100%;
 }
 .last-one{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Hind';
+  font-size: 20px;
+  padding: 30px;
+  color: var(--secondary-grey);
+  height: 100%;
 }
-.last-two{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  border-left: 3px solid var(--secondary-grey);
-  border-right: 3px solid var(--secondary-grey);
+.last-three{
+  font-family: 'Hind';
+  font-size: 20px;
+  padding: 30px;
+  color: var(--secondary-grey);
+  height: 100%;
+  
 }
-.image2{
-  max-height: 500px;
-  width: auto;
-  border: 3px solid var(--secondary-grey);
-}
-
 </style>
 
 <script>
