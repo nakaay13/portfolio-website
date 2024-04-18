@@ -20,17 +20,15 @@
                         
                     </router-link>
                         <div class="photo-wrapper">
-                            <img class="photo" :src="portfolioItem.image" alt="">
+                            <img class="project-photo" :src="portfolioItem.image" alt="">
                         </div>
                         <div class="text-wrapper">
-                            <h2>{{ portfolioItem.title }}</h2>
-                        <p>{{ portfolioItem.description }}</p>
-                        <p>{{ portfolioItem.id }}</p>
-                        <p :class="portfolioItem.category">{{ portfolioItem.category }}</p>
+                            <p class="project-title">{{ portfolioItem.title }}</p>
+                            <p class="poject-description">{{ portfolioItem.description }}</p>
             
                         
                         <div v-if="portfolioItem.link">
-                        <a :href="portfolioItem.link">Link</a>
+                        <a :href="portfolioItem.link">See more</a>
                         </div>
                         <div v-else></div>
                         </div>
@@ -110,16 +108,38 @@
         flex-direction: row;
         margin-bottom: 20px;
     }
-    .photo-wrapper {
-        height: 100%;
-        width: 200px;
-        border-right: 3px solid var(--secondary-grey);
-    }
+    
     .text-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 20px;
+        color: var(--secondary-grey);
+    }
+    .project-title {
+        font-size: 50px;
+        font-family: 'Abril Fatface';
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .poject-description {
+        font-size: 20px;
+        font-family: 'Tinos', serif;
+        margin-bottom: 10px;
+    }
+    .photo-wrapper {
+        border-right: 3px solid var(--secondary-grey);
+        width: 100%;
+    }
+    .project-photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+    a {
+        font-size: 20px;
+        font-family: 'Tinos', serif;
         color: var(--secondary-grey);
     }
   </style>

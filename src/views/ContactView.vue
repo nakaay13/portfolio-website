@@ -17,9 +17,9 @@
                 <br><br>
                 Another phone number:  +48 660 320 676
                 <br><br>
-                Link to my LinkedIn profile: <a href="www.linkedin.com/in/karolina-brzek-067b952b5">click here</a>
+                <a href="https://www.linkedin.com/in/karolina-brzek-067b952b5/" target="_blank">My LinkedIn profile </a>
                 <br><br>
-                Link to my GitHub profile: <a href="https://github.com/nakaay13">click here</a>
+                 <a href="https://github.com/nakaay13" target="_blank">My GitHub profile</a>
                 </p>
                 
 
@@ -79,7 +79,7 @@
     margin-right: 30px ;
 }
 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--secondary-grey);
     font-family: 'Tinos', serif;
     font-size: 30px;
