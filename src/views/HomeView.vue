@@ -32,7 +32,7 @@
     <div class="last-part">
       <div class="last-one col-4">
         <p>
-          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With a strong command of GitHub, I ensure collaborative and efficient development workflows, facilitating seamless project management and version control.
+          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With my expertise in GitHub, I streamline development teamwork and project management effortlessly.
 
           
         </p>
@@ -42,7 +42,7 @@
       </div>
       <div class="last-three col-4">
         <p>
-          In addition to my coding skills, I excel in graphic design, adept at creating visually compelling content such as posters and promotional materials. Proficient in Adobe Creative Suite, including InDesign, Illustrator, and Photoshop, I bring concepts to life with precision and creativity. Furthermore, my expertise extends to video editing using Premiere Pro and After Effects, where I craft engaging visual narratives. Leveraging tools like Figma and Adobe XD, I streamline the design process, delivering polished prototypes and user interfaces. 
+          In addition to my coding skills, I excel in graphic design, adept at creating visually compelling content such as posters and promotional materials. Proficient in Adobe Creative Suite, including InDesign, Illustrator, and Photoshop, I bring concepts to life with precision and creativity. Furthermore, my expertise extends to video editing using Premiere Pro and After Effects, where I craft engaging visual narratives. With tools like Figma and Adobe XD, I streamline the design process, delivering polished prototypes and user interfaces. 
         </p>
       </div>
 
@@ -52,7 +52,7 @@
         
       <div class="last-one-media">
         <p class="img-p-media"> <img class="image2-media" src="/src/assets/img/me2.png" alt="">
-          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With a strong command of GitHub, I ensure collaborative and efficient development workflows, facilitating seamless project management and version control.
+          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With my expertise in GitHub, I streamline development teamwork and project management effortlessly.
 
           
         </p>
@@ -61,7 +61,7 @@
       </div>
       <div class="last-three-media ">
         <p>
-          In addition to my coding skills, I excel in graphic design, adept at creating visually compelling content such as posters and promotional materials. Proficient in Adobe Creative Suite, including InDesign, Illustrator, and Photoshop, I bring concepts to life with precision and creativity. Furthermore, my expertise extends to video editing using Premiere Pro and After Effects, where I craft engaging visual narratives. Leveraging tools like Figma and Adobe XD, I streamline the design process, delivering polished prototypes and user interfaces. 
+          In addition to my coding skills, I excel in graphic design, adept at creating visually compelling content such as posters and promotional materials. Proficient in Adobe Creative Suite, including InDesign, Illustrator, and Photoshop, I bring concepts to life with precision and creativity. Furthermore, my expertise extends to video editing using Premiere Pro and After Effects, where I craft engaging visual narratives. With tools like Figma and Adobe XD, I streamline the design process, delivering polished prototypes and user interfaces. 
         </p>
       </div>
 
