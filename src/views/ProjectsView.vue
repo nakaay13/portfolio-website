@@ -165,7 +165,7 @@
     }
     .photo-wrapper {
         
-        width: 500px;
+        max-width: 400px;
     }
     .project-photo {
         border-right: var(--border-width) solid var(--secondary-grey);

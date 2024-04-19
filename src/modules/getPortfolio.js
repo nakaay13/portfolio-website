@@ -38,9 +38,11 @@ const getPortfolio = () => {
     },
     {
       id: 5,
-      title: '  project 5',
-      description: 'This is a project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.',
-      category: 'web'
+      title: 'SCHOOL POSTER',
+      description: 'This is a poster I created for International Day in my school. I wanted to create a design that was colorful and eye-catching, while still being informative.',
+      image: '/src/assets/img/int-day.png',
+      link_download: '/src/assets/PDF/poster-A4.pdf',
+      category: 'graphic',
     }  
   ])
 
