@@ -32,9 +32,7 @@
     <div class="last-part">
       <div class="last-one col-4">
         <p>
-          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. With my expertise in GitHub, I streamline development teamwork and project management effortlessly.
-
-          
+          I possess a strong proficiency in web development, particularly in JavaScript, HTML, and CSS, with additional expertise in developing applications using Vue 3. With a keen understanding of modern web technologies, I thrive in crafting intuitive and responsive user interfaces while ensuring seamless functionality. My dedication to staying updated with industry trends allows me to implement cutting-edge solutions, ensuring an optimal user experience. Additionally, with my expertise in GitHub, I streamline development teamwork and project management effortlessly.
         </p>
       </div>
       <div class="last-two">
@@ -103,6 +101,7 @@
   font-size: 80px;
   font-family: 'Abril Fatface';
   color: var(--secondary-grey);
+  height: 120px;
 
 }
 .home-wrapper{
@@ -275,6 +274,7 @@
 @media (max-width: 1000px){
   .hi{
     font-size: 60px;
+    height: 90px;
   }
   .description{
     font-size: 20px;
@@ -311,12 +311,17 @@
   }
 
 }
-@media(max-width:800px){
-
+@media(max-width:664px){
+  .hi{
+      font-size: 50px;
+      height: 70px;
+    }
 }
+
 @media(max-width:620px){
     .hi{
       font-size: 50px;
+      height: 70px;
     }
     .image{
       width: 100%;
@@ -358,9 +363,16 @@
       border: var(--border-small) solid var(--secondary-grey);
     }
 }
+@media(max-width:572px){
+  .hi{
+      font-size: 40px;
+      height: 60px;
+    }
+}
 @media(max-width:500px){
     .hi{
       font-size: 40px;
+      height: 60px;
     }
     .text{
       padding: 20px;
@@ -399,6 +411,24 @@
       width: 100%;
     }
     
+}
+@media(max-width:432px){
+  .hi{
+      font-size: 30px;
+      height: 50px;
+    }
+}
+@media(max-width:432px){
+  .hi{
+      font-size: 30px;
+      height: 50px;
+    }
+}
+@media(max-width:350px){
+  .hi{
+      font-size: 30px;
+      height: auto;
+    }
 }
 </style>
 

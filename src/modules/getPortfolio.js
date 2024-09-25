@@ -8,7 +8,16 @@ const getPortfolio = () => {
       title: 'TRAPHOLT WEBSITE',
       description: 'As part of a group of four, we collaborated to redesign the Trapholt museum website, with a special focus on families with children. Our project involved creating a more user-friendly platform, integrating interactive features, kid-friendly navigation, educational resources, and community engagement tools. Our aim was to enhance the website to increase visitor engagement and promote a sense of excitement and discovery among families.',
       image: '/src/assets/img/trapholt-image.png',
-      link: 'https://reasonsx.github.io/',
+      link: 'https://trapholt-redesign.netlify.app/',
+      category: 'web'
+  
+    },
+    {
+      id: 6,
+      title: 'FANTASY QUEST WEBSITE',
+      description: 'As part of a group of four, we created a website for Fantasy Quest, a special event celebrating the 10th anniversary of the Fantasy Festival in Esbjerg. The site highlights event details, schedules for the family-friendly Day Quest and adult-focused Evening Quest, and links to Ticketmaster for ticket sales. It provides a user-friendly experience to promote the immersive role-playing adventure.',
+      image: '/src/assets/img/fantasy_quest.png',
+      link: ' https://project-fantasy-quest.web.app/',
       category: 'web'
   
     },
@@ -43,7 +52,8 @@ const getPortfolio = () => {
       image: '/src/assets/img/int-day.png',
       link_download: '/src/assets/PDF/poster-A4.pdf',
       category: 'graphic',
-    }  
+    },
+    
   ])
 
   return { portfolioItems }
